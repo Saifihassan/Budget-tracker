@@ -33,7 +33,7 @@ function BudgetInput({
           className="w-10/12 px-3 py-2 border rounded-2xl"
         />
         <button
-          className="bg-emerald-500 text-white px-4 py-4 rounded-full flex items-center justify-center w-12 h-12"
+          className="bg-emerald-500 hover:bg-emerald-600 text-white px-4 py-4 rounded-full flex items-center justify-center w-12 h-12"
           onClick={() => {
             if (monthlybudget === "") {
               alert("enter a monthly budget first");
@@ -86,7 +86,7 @@ function BudgetInput({
             }
             addExpense();
           }}
-          className="bg-emerald-500 text-white px-4 py-4 w-12 mt-1 h-12 flex justify-center items-center rounded-full"
+          className="bg-emerald-500 hover:bg-emerald-600 text-white px-4 py-4 w-12 mt-1 h-12 flex justify-center items-center rounded-full"
         >
           +
         </button>
